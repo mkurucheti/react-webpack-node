@@ -24,6 +24,15 @@
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.13.2",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
+    "webpack-dev-server": "^2.4.1",
+    "keycloak-connect": "3.1.0",
+    "express-session": "1.15.3",
+    "express": "4.15.3"
+  },
+  "dependencies": {
+    "bootstrap-timepicker": "^0.5.2",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "rc-time-picker": "^2.4.1"
   }
 }

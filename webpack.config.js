@@ -4,8 +4,9 @@ var path = require('path');
 module.exports = {
   entry: './src/app.js',
   output: {
-    filename: 'bundle.js',
-    publicPath: ''
+    path: path.join(__dirname, 'build'),
+    filename: 'mybundle.js',
+    publicPath: '/build'
   },
    plugins: [
     new webpack.HotModuleReplacementPlugin()
