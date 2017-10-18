@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {Row, Col} from "react-bootstrap";
 import Navigation from './navbar';
-import TimePicker from 'rc-time-picker';
+import Table from './table';
 import styles from './../css/styles.css';
 
 
@@ -16,7 +16,7 @@ class Body extends Component {
 			    </Col>
 			  </Row>
 			  	<div className={styles.time}>
-			  		<TimePicker/>
+			  		<Table/>
 			  	 </div>
 			  	 
 			  	 
